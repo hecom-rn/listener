@@ -1,0 +1,22 @@
+{
+  "name": "@hecom/listener",
+  "version": "1.0.0",
+  "description": "通用事件处理",
+  "main": "dist/index.js",
+  "repository": "https://github.com/hecom-rn/listener.git",
+  "author": "白宇东 <summer88123@163.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rm -rf dist; tsc",
+    "test": "echo 'no test'",
+    "lint": "./node_modules/.bin/eslint . --ext .ts,.tsx",
+    "patch": "npm version patch -m 'Bump version %s';git push origin master --tags",
+    "major": "npm version major -m 'Bump version %s';git push origin master --tags"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.0",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.8.3"
+  }
+}
