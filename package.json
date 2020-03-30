@@ -7,6 +7,9 @@
   "author": "白宇东 <summer88123@163.com>",
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rm -rf dist; tsc",
     "test": "echo 'no test'",
