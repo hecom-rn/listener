@@ -9,5 +9,4 @@ export interface Subscription {
 export interface Listener {
     trigger: (event: string, param?: any) => void
     register: (event: string, handle: Handle) => Subscription
-    unRegister: (obj: Subscription) => void
 }
